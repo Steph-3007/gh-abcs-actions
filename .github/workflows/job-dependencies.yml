@@ -3,7 +3,7 @@ name: 02-2. Dependencies
 on:
   push:
      branches: [main]
-  workflow_dispatch:    
+  workflow_dispatch:
     
 jobs:
   initial:
@@ -70,4 +70,4 @@ jobs:
 
   call_dependencies_workflow_job:
     needs: call_reusable_workflow_job
-    uses: steph-3007/gh-abcs-actions/.github/workflows/job-dependencies.yml@main
+    uses: Steph-3007/gh-abcs-actions/.github/workflows/job-dependencies.yml@main
